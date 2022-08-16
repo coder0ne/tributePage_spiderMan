@@ -1,0 +1,59 @@
+/* GLOBAL */
+body 
+{
+    background: #e5e5e5;
+    margin: 0 auto;
+}
+
+/* ------------------------------------- */
+/* HEADER */
+header img 
+{
+    width: 100%;
+    border-bottom: 2px solid #14213d;
+}
+
+/* ------------------------------------- */
+/* MAIN */
+main h1, h2
+{
+    color: #14213d;
+    padding: 10px;
+    text-align: center;
+    text-decoration: overline;
+}
+main p
+{
+    text-align: justify;
+    padding: 5px;
+}
+main #link
+{
+    padding: 10px;
+    text-align: center;
+}
+main a 
+{
+    text-decoration: none;
+    color: #FCA311;
+}
+
+/* ------------------------------------- */
+/* FOOTER*/
+footer
+{
+    display: flex;
+    justify-content: center;
+    background: #fca311;
+    border-top: 2px solid #14213d;
+}
+
+/* ------------------------------------- */
+/* MEDIA QUERIES */
+@media screen and (min-width: 1100px)
+{
+    main p 
+    {
+        padding: 0 100px;
+    }
+}
